@@ -10,6 +10,8 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Allow the GitHub token to push changes to the repository
 
     steps:
     - name: Checkout the repository
