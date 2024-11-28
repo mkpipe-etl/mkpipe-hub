@@ -1,0 +1,25 @@
+name: Validate plugins.yaml
+
+on:
+  pull_request:
+    paths:
+      - "plugins.yaml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: pip install pyyaml requests
+
+      - name: Run validation
+        run: python validate_plugins_yaml.py plugins.yaml

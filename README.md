@@ -53,7 +53,3 @@ If you’ve built an extractor or loader for `mkpipe`, feel free to add it to th
 ### Community Plugins
 Check out the [Awesome Community Plugins](community/awesome-community-plugins.md) list for unofficial contributions from the `mkpipe` community.
 
----
-
-### Support Me
-<iframe src="https://github.com/sponsors/m-karakus/button" title="Sponsor m-karakus" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
