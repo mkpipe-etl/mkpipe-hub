@@ -14,10 +14,3 @@ loaders:
     description: "Load data into Amazon S3."
     type: "official"
 
-  - name: "Bigquery"
-    repo: "https://github.com/m-karakus/mkpipe-extractor-postgres"
-    pypi: "https://pypi.org/project/mkpipe-extractor-postgres/"
-    author: "m-karakus"
-    description: "Load data into Amazon S3."
-    type: "official"
-
