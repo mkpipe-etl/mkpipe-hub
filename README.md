@@ -46,7 +46,6 @@ If you’ve built an extractor or loader for `mkpipe`, feel free to add it to th
 
 #### Loaders
 - [S3 Loader](https://github.com/m-karakus/mkpipe-extractor-postgres)
-- [Bigquery](https://github.com/m-karakus/mkpipe-extractor-postgres)
 ---
 
 
