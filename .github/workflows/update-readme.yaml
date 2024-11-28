@@ -1,0 +1,40 @@
+name: Update README on plugins.yaml change
+
+on:
+  push:
+    paths:
+      - "plugins.yaml"  # Only trigger when plugins.yaml is changed
+    branches:
+      - main  # Only run on changes to the main branch
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyyaml
+
+    - name: Run update_readme.py
+      run: |
+        python update_readme.py
+
+    - name: Commit updated README.md
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add README.md
+        git commit -m "Update README.md with new plugins"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Used for authentication to push changes
