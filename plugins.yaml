@@ -11,4 +11,5 @@ loaders:
     pypi: "https://pypi.org/project/mkpipe-loader-s3/"
     author: "m-karakus"
     description: "Load data into Amazon S3."
-    
+
+
