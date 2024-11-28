@@ -41,16 +41,12 @@ If you’ve built an extractor or loader for `mkpipe`, feel free to add it to th
 ### Explore Plugins
 
 #### Extractors
-- [PostgreSQL Extractor](extractors/postgres.md)
-- [MySQL Extractor](extractors/mysql.md)
-
-#### Loaders
-- [S3 Loader](loaders/s3.md)
-- [BigQuery Loader](loaders/bigquery.md)
-
+- [PostgreSQL Extractor](https://github.com/m-karakus/mkpipe-extractor-postgres)
 ---
 
-### Community Plugins
-Check out the [Awesome Community Plugins](community/awesome-community-plugins.md) list for unofficial contributions from the `mkpipe` community.
+#### Loaders
+- [S3 Loader](https://github.com/m-karakus/mkpipe-extractor-postgres)
+- [Bigquery](https://github.com/m-karakus/mkpipe-extractor-postgres)
+---
 
 
