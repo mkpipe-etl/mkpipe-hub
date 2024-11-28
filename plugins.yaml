@@ -1,0 +1,13 @@
+extractors:
+  - name: "PostgreSQL Extractor"
+    repo: "https://github.com/m-karakus/mkpipe-extractor-postgres"
+    pypi: "https://pypi.org/project/mkpipe-extractor-postgres/"
+    author: "m-karakus"
+    description: "Extract data from PostgreSQL databases."
+
+loaders:
+  - name: "S3 Loader"
+    repo: "https://github.com/m-karakus/mkpipe-loader-s3"
+    pypi: "https://pypi.org/project/mkpipe-loader-s3/"
+    author: "m-karakus"
+    description: "Load data into Amazon S3."
