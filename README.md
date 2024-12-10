@@ -41,11 +41,12 @@ If you’ve built an extractor or loader for `mkpipe`, feel free to add it to th
 ### Explore Plugins
 
 #### Extractors
-- [PostgreSQL Extractor](https://github.com/m-karakus/mkpipe-extractor-postgres)
+- [PostgreSQL Extractor](https://github.com/mkpipe-etl/mkpipe-extractor-postgres)
+- [MySQL Extractor](https://github.com/mkpipe-etl/mkpipe-extractor-mysql)
 ---
 
 #### Loaders
-- [PostgreSQL Loader](https://github.com/m-karakus/mkpipe-loader-postgres)
+- [PostgreSQL Loader](https://github.com/mkpipe-etl/mkpipe-loader-postgres)
 ---
 
 
