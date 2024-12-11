@@ -20,3 +20,12 @@ loaders:
     author: "m-karakus"
     description: "Load data into PostgreSQL databases."
     type: "official"
+
+  - name: "MySQL Loader"
+    repo: "https://github.com/mkpipe-etl/mkpipe-loader-mysql"
+    pypi: "https://pypi.org/project/mkpipe-loader-mysql/"
+    author: "m-karakus"
+    description: "Load data into MySQL databases."
+    type: "official"
+
+
