@@ -28,4 +28,11 @@ loaders:
     description: "Load data into MySQL databases."
     type: "official"
 
+  - name: "MariaDB Loader"
+    repo: "https://github.com/mkpipe-etl/mkpipe-loader-mariadb"
+    pypi: "https://pypi.org/project/mkpipe-loader-mariadb/"
+    author: "m-karakus"
+    description: "Load data into MariaDB databases."
+    type: "official"
+
 
