@@ -17,10 +17,10 @@ def update_readme():
 
     # Extract the extractor and loader information
     for extractor in plugins_data.get("extractors", []):
-        extractors.append(f"- [{extractor['name']}]({extractor['repo']})")
+        extractors.append(f"- [{extractor['name']}]({extractor['pypi']})")
 
     for loader in plugins_data.get("loaders", []):
-        loaders.append(f"- [{loader['name']}]({loader['repo']})")
+        loaders.append(f"- [{loader['name']}]({loader['pypi']})")
 
     # Read the README.md template content
     readme_path = "README.md"

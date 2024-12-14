@@ -41,15 +41,15 @@ If you’ve built an extractor or loader for `mkpipe`, feel free to add it to th
 ### Explore Plugins
 
 #### Extractors
-- [PostgreSQL Extractor](https://github.com/mkpipe-etl/mkpipe-extractor-postgres)
-- [MySQL Extractor](https://github.com/mkpipe-etl/mkpipe-extractor-mysql)
-- [MariaDB Extractor](https://github.com/mkpipe-etl/mkpipe-extractor-mariadb)
+- [PostgreSQL Extractor](https://pypi.org/project/mkpipe-extractor-postgres/)
+- [MySQL Extractor](https://pypi.org/project/mkpipe-extractor-mysql/)
+- [MariaDB Extractor](https://pypi.org/project/mkpipe-extractor-mariadb/)
 ---
 
 #### Loaders
-- [PostgreSQL Loader](https://github.com/mkpipe-etl/mkpipe-loader-postgres)
-- [MySQL Loader](https://github.com/mkpipe-etl/mkpipe-loader-mysql)
-- [MariaDB Loader](https://github.com/mkpipe-etl/mkpipe-loader-mariadb)
+- [PostgreSQL Loader](https://pypi.org/project/mkpipe-loader-postgres/)
+- [MySQL Loader](https://pypi.org/project/mkpipe-loader-mysql/)
+- [MariaDB Loader](https://pypi.org/project/mkpipe-loader-mariadb/)
 ---
 
 
