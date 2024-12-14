@@ -43,6 +43,7 @@ If you’ve built an extractor or loader for `mkpipe`, feel free to add it to th
 #### Extractors
 - [PostgreSQL Extractor](https://github.com/mkpipe-etl/mkpipe-extractor-postgres)
 - [MySQL Extractor](https://github.com/mkpipe-etl/mkpipe-extractor-mysql)
+- [MariaDB Extractor](https://github.com/mkpipe-etl/mkpipe-extractor-mariadb)
 ---
 
 #### Loaders
