@@ -13,6 +13,13 @@ extractors:
     description: "Extract data from MySQL databases."
     type: "official" # "official" or "community"
 
+  - name: "MariaDB Extractor"
+    repo: "https://github.com/mkpipe-etl/mkpipe-extractor-mariadb"
+    pypi: "https://pypi.org/project/mkpipe-extractor-mariadb/"
+    author: "m-karakus"
+    description: "Extract data from MariaDB databases."
+    type: "official"
+
 loaders:
   - name: "PostgreSQL Loader"
     repo: "https://github.com/mkpipe-etl/mkpipe-loader-postgres"
