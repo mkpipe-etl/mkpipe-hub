@@ -45,6 +45,7 @@ If you’ve built an extractor or loader for `mkpipe`, feel free to add it to th
 - [MySQL Extractor](https://pypi.org/project/mkpipe-extractor-mysql/)
 - [MariaDB Extractor](https://pypi.org/project/mkpipe-extractor-mariadb/)
 - [SQLite Extractor](https://pypi.org/project/mkpipe-extractor-sqlite/)
+- [SQL Server Extractor](https://pypi.org/project/mkpipe-extractor-sqlserver/)
 ---
 
 #### Loaders
@@ -52,6 +53,7 @@ If you’ve built an extractor or loader for `mkpipe`, feel free to add it to th
 - [MySQL Loader](https://pypi.org/project/mkpipe-loader-mysql/)
 - [MariaDB Loader](https://pypi.org/project/mkpipe-loader-mariadb/)
 - [SQLite Loader](https://pypi.org/project/mkpipe-loader-sqlite/)
+- [SQL Server Loader](https://pypi.org/project/mkpipe-loader-sqlserver/)
 ---
 
 
