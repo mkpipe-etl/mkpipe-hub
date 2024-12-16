@@ -20,6 +20,13 @@ extractors:
     description: "Extract data from MariaDB databases."
     type: "official"
 
+  - name: "SQLite Extractor"
+    repo: "https://github.com/mkpipe-etl/mkpipe-extractor-sqlite"
+    pypi: "https://pypi.org/project/mkpipe-extractor-sqlite/"
+    author: "m-karakus"
+    description: "Extract data from SQLite databases."
+    type: "official"
+
 loaders:
   - name: "PostgreSQL Loader"
     repo: "https://github.com/mkpipe-etl/mkpipe-loader-postgres"
@@ -42,4 +49,9 @@ loaders:
     description: "Load data into MariaDB databases."
     type: "official"
 
-
+  - name: "SQLite Loader"
+    repo: "https://github.com/mkpipe-etl/mkpipe-loader-sqlite"
+    pypi: "https://pypi.org/project/mkpipe-loader-sqlite/"
+    author: "m-karakus"
+    description: "Load data into SQLite databases."
+    type: "official"
