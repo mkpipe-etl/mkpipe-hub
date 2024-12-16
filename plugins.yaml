@@ -27,6 +27,13 @@ extractors:
     description: "Extract data from SQLite databases."
     type: "official"
 
+  - name: "SQL Server Extractor"
+    repo: "https://github.com/mkpipe-etl/mkpipe-extractor-sqlserver"
+    pypi: "https://pypi.org/project/mkpipe-extractor-sqlserver/"
+    author: "m-karakus"
+    description: "Extract data from SQL Server databases."
+    type: "official"
+
 loaders:
   - name: "PostgreSQL Loader"
     repo: "https://github.com/mkpipe-etl/mkpipe-loader-postgres"
@@ -54,4 +61,11 @@ loaders:
     pypi: "https://pypi.org/project/mkpipe-loader-sqlite/"
     author: "m-karakus"
     description: "Load data into SQLite databases."
+    type: "official"
+
+  - name: "SQL Server Loader"
+    repo: "https://github.com/mkpipe-etl/mkpipe-loader-sqlserver"
+    pypi: "https://pypi.org/project/mkpipe-loader-sqlserver/"
+    author: "m-karakus"
+    description: "Load data into SQL Server databases."
     type: "official"
