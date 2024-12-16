@@ -44,12 +44,14 @@ If you’ve built an extractor or loader for `mkpipe`, feel free to add it to th
 - [PostgreSQL Extractor](https://pypi.org/project/mkpipe-extractor-postgres/)
 - [MySQL Extractor](https://pypi.org/project/mkpipe-extractor-mysql/)
 - [MariaDB Extractor](https://pypi.org/project/mkpipe-extractor-mariadb/)
+- [SQLite Extractor](https://pypi.org/project/mkpipe-extractor-sqlite/)
 ---
 
 #### Loaders
 - [PostgreSQL Loader](https://pypi.org/project/mkpipe-loader-postgres/)
 - [MySQL Loader](https://pypi.org/project/mkpipe-loader-mysql/)
 - [MariaDB Loader](https://pypi.org/project/mkpipe-loader-mariadb/)
+- [SQLite Loader](https://pypi.org/project/mkpipe-loader-sqlite/)
 ---
 
 
