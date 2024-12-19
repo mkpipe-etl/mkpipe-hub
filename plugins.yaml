@@ -34,6 +34,20 @@ extractors:
     description: "Extract data from SQL Server databases."
     type: "official"
 
+  - name: "Oracle DB Extractor"
+    repo: "https://github.com/mkpipe-etl/mkpipe-extractor-oracledb"
+    pypi: "https://pypi.org/project/mkpipe-extractor-oracledb/"
+    author: "m-karakus"
+    description: "Extract data from Oracle DB databases."
+    type: "official"
+
+  - name: "Redshift Extractor"
+    repo: "https://github.com/mkpipe-etl/mkpipe-extractor-redshift"
+    pypi: "https://pypi.org/project/mkpipe-extractor-redshift/"
+    author: "m-karakus"
+    description: "Extract data from Redshift databases."
+    type: "official"
+
 loaders:
   - name: "PostgreSQL Loader"
     repo: "https://github.com/mkpipe-etl/mkpipe-loader-postgres"
@@ -68,4 +82,18 @@ loaders:
     pypi: "https://pypi.org/project/mkpipe-loader-sqlserver/"
     author: "m-karakus"
     description: "Load data into SQL Server databases."
+    type: "official"
+
+  - name: "Oracle DB Loader"
+    repo: "https://github.com/mkpipe-etl/mkpipe-loader-oracledb"
+    pypi: "https://pypi.org/project/mkpipe-loader-oracledb/"
+    author: "m-karakus"
+    description: "Load data into Oracle DB databases."
+    type: "official"
+
+  - name: "Redshift Loader"
+    repo: "https://github.com/mkpipe-etl/mkpipe-loader-redshift"
+    pypi: "https://pypi.org/project/mkpipe-loader-redshift/"
+    author: "m-karakus"
+    description: "Load data into Redshift databases."
     type: "official"
