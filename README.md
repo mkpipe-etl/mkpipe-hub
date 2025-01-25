@@ -46,6 +46,9 @@ If you’ve built an extractor or loader for `mkpipe`, feel free to add it to th
 - [MariaDB Extractor](https://pypi.org/project/mkpipe-extractor-mariadb/)
 - [SQLite Extractor](https://pypi.org/project/mkpipe-extractor-sqlite/)
 - [SQL Server Extractor](https://pypi.org/project/mkpipe-extractor-sqlserver/)
+- [Oracle DB Extractor](https://pypi.org/project/mkpipe-extractor-oracledb/)
+- [Redshift Extractor](https://pypi.org/project/mkpipe-extractor-redshift/)
+- [S3 Extractor](https://pypi.org/project/mkpipe-extractor-s3/)
 ---
 
 #### Loaders
@@ -54,6 +57,9 @@ If you’ve built an extractor or loader for `mkpipe`, feel free to add it to th
 - [MariaDB Loader](https://pypi.org/project/mkpipe-loader-mariadb/)
 - [SQLite Loader](https://pypi.org/project/mkpipe-loader-sqlite/)
 - [SQL Server Loader](https://pypi.org/project/mkpipe-loader-sqlserver/)
+- [Oracle DB Loader](https://pypi.org/project/mkpipe-loader-oracledb/)
+- [Redshift Loader](https://pypi.org/project/mkpipe-loader-redshift/)
+- [S3 Loader](https://pypi.org/project/mkpipe-loader-s3/)
 ---
 
 
