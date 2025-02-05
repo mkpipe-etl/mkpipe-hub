@@ -55,6 +55,13 @@ extractors:
     description: "Extract data from S3."
     type: "official"
 
+  - name: "Clickhouse Extractor"
+    repo: "https://github.com/mkpipe-etl/mkpipe-extractor-clickhouse"
+    pypi: "https://pypi.org/project/mkpipe-extractor-clickhouse/"
+    author: "m-karakus"
+    description: "Extract data from Clickhouse databases."
+    type: "official"
+
 loaders:
   - name: "PostgreSQL Loader"
     repo: "https://github.com/mkpipe-etl/mkpipe-loader-postgres"
@@ -110,4 +117,11 @@ loaders:
     pypi: "https://pypi.org/project/mkpipe-loader-s3/"
     author: "m-karakus"
     description: "Load data into S3."
+    type: "official"
+
+  - name: "Clickhouse Loader"
+    repo: "https://github.com/mkpipe-etl/mkpipe-loader-clickhouse"
+    pypi: "https://pypi.org/project/mkpipe-loader-clickhouse/"
+    author: "m-karakus"
+    description: "Load data into Clickhouse databases."
     type: "official"
