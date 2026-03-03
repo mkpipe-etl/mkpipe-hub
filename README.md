@@ -48,8 +48,17 @@ If you’ve built an extractor or loader for `mkpipe`, feel free to add it to th
 - [SQL Server Extractor](https://pypi.org/project/mkpipe-extractor-sqlserver/)
 - [Oracle DB Extractor](https://pypi.org/project/mkpipe-extractor-oracledb/)
 - [Redshift Extractor](https://pypi.org/project/mkpipe-extractor-redshift/)
-- [S3 Extractor](https://pypi.org/project/mkpipe-extractor-s3/)
-- [Clickhouse Extractor](https://pypi.org/project/mkpipe-extractor-clickhouse/)
+- [ClickHouse Extractor](https://pypi.org/project/mkpipe-extractor-clickhouse/)
+- [Snowflake Extractor](https://pypi.org/project/mkpipe-extractor-snowflake/)
+- [BigQuery Extractor](https://pypi.org/project/mkpipe-extractor-bigquery/)
+- [MongoDB Extractor](https://pypi.org/project/mkpipe-extractor-mongodb/)
+- [Cassandra Extractor](https://pypi.org/project/mkpipe-extractor-cassandra/)
+- [TimescaleDB Extractor](https://pypi.org/project/mkpipe-extractor-timescaledb/)
+- [DynamoDB Extractor](https://pypi.org/project/mkpipe-extractor-dynamodb/)
+- [Elasticsearch Extractor](https://pypi.org/project/mkpipe-extractor-elasticsearch/)
+- [InfluxDB Extractor](https://pypi.org/project/mkpipe-extractor-influxdb/)
+- [Redis Extractor](https://pypi.org/project/mkpipe-extractor-redis/)
+- [File Extractor](https://pypi.org/project/mkpipe-extractor-file/)
 ---
 
 #### Loaders
@@ -60,8 +69,17 @@ If you’ve built an extractor or loader for `mkpipe`, feel free to add it to th
 - [SQL Server Loader](https://pypi.org/project/mkpipe-loader-sqlserver/)
 - [Oracle DB Loader](https://pypi.org/project/mkpipe-loader-oracledb/)
 - [Redshift Loader](https://pypi.org/project/mkpipe-loader-redshift/)
-- [S3 Loader](https://pypi.org/project/mkpipe-loader-s3/)
-- [Clickhouse Loader](https://pypi.org/project/mkpipe-loader-clickhouse/)
+- [ClickHouse Loader](https://pypi.org/project/mkpipe-loader-clickhouse/)
+- [Snowflake Loader](https://pypi.org/project/mkpipe-loader-snowflake/)
+- [BigQuery Loader](https://pypi.org/project/mkpipe-loader-bigquery/)
+- [MongoDB Loader](https://pypi.org/project/mkpipe-loader-mongodb/)
+- [Cassandra Loader](https://pypi.org/project/mkpipe-loader-cassandra/)
+- [TimescaleDB Loader](https://pypi.org/project/mkpipe-loader-timescaledb/)
+- [DynamoDB Loader](https://pypi.org/project/mkpipe-loader-dynamodb/)
+- [Elasticsearch Loader](https://pypi.org/project/mkpipe-loader-elasticsearch/)
+- [InfluxDB Loader](https://pypi.org/project/mkpipe-loader-influxdb/)
+- [Redis Loader](https://pypi.org/project/mkpipe-loader-redis/)
+- [File Loader](https://pypi.org/project/mkpipe-loader-file/)
 ---
 
 
